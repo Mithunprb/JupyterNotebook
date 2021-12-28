@@ -8,7 +8,7 @@ Read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyte
 * (optional) Install LaTex for your OS [get it here](https://www.latex-project.org/get/)
 * (optional) or Use Google Colab [lets go!!](https://colab.research.google.com/?utm_source=scs-index)
 ## Files
-* [C++](./)
+* [C++](example.ipynb)
 * [C](./C)
 * [Web](./Web%20Technology)
 * [Shell](./Shell)
