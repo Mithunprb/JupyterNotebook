@@ -1,5 +1,5 @@
 # JupyterNotebook
-Read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyter notebook
+Read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyter notebook, And also execute them on remote computer
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-sUZMT0fCNjyMXwVFf2fcQo7uFzgWGJG?usp=sharing)
 
@@ -14,6 +14,27 @@ Read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyte
 * [Shell](./Shell)
 * [LaTex](./LaTex)
 
+## Run code on remote computer
+In order to run our code from local computer to remote computer we need to use [ssh](). <br>
+As we, have a jupyter lab/notebook is running we can simply use ssh local port forwoarding to tunnel our ipython files with kernel that we are running.
+* 1st we have to run ```ipython kernel``` in terminal
+```bash
+%  ipython kernel 
+NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing kernel-1839.json
+
+```
+As we get ```kernel-wxyz.json```. we have to read it so we can get which port our jupyter is running.
+
+* For getting ```kernel-wxyz.json```
 
 #### Note:
 In Jupyter notebook, LaTex syntax can be execucate using magic tag ```%%latex```
