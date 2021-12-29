@@ -72,7 +72,7 @@ kernel-1875.json
 ```
 * That's it now you can start ipkernel on your remote computer with aboved kernel
 ```bash
-ipython3 console --existing kernel-1875.json
+% ipython3 console --existing kernel-1875.json
 ```
 
 #### Note:
