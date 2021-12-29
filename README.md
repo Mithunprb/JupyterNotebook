@@ -41,11 +41,11 @@ As we get ```kernel-wxyz.json```. we have to read it so we can get which port ou
  %  ls
 .
 .
-kernel-1875.json
+kernel-1839.json
 .
 .
 .
- %  cat kernel-1875.json
+ %  cat kernel-1839.json
 {
   "shell_port": 50170,
   "iopub_port": 50174,
@@ -68,11 +68,11 @@ kernel-1875.json
 ```
 * copy ```kernel-wxyz.json``` to remote computer
 ```bash
-% rsync -av user@remote:.ipython/profile_default/security/kernel-1875.json ~/.ipython/profile_default/security/kernel-1875.json
+% rsync -av user@remote:.ipython/profile_default/security/kernel-1839.json ~/.ipython/profile_default/security/kernel-1839.json
 ```
 * That's it now you can start ipkernel on your remote computer with aboved kernel
 ```bash
-% ipython3 console --existing kernel-1875.json
+% ipython3 console --existing kernel-1839.json
 ```
 
 #### Note:
