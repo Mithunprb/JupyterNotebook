@@ -35,7 +35,11 @@ To connect another client to this kernel, use:
 As we get ```kernel-wxyz.json```. we have to read it so we can get which port our jupyter is running.
 
 * For getting ```kernel-wxyz.json``` we can run ```jupyter --runtime --dir```
+> *Remember in order to execute bash command in Jupyter notebook you have to add "!" before your command. 
+> 
+> e.g. !jupyter --runtime --dir
 ```bash
+%   jupyter --runtime --dir
 /Users/mithunparab/Library/Jupyter/runtime
  %  cd /Users/mithunparab/Library/Jupyter/runtime
  %  ls
@@ -60,6 +64,7 @@ kernel-1839.json
 }                    
 ```
 * After we get the ports, we can do local ssh port forwording
+> Note: Try to use key based authentication for ssh for security and avoid repeatability of password.
 ```bash
 % ssh user@remote -f -N -L 50170:127.0.0.1:50170
 % ssh user@remote -f -N -L 50174:127.0.0.1:50174
