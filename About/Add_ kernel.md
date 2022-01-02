@@ -32,4 +32,9 @@ At```<name of env>```  put name of your environment eg. tf_env
 >command that is responsible for ceatating kernel for jupyter lab/notebook 
 >
 >```path/to/python -m ipykernel install <options>```
-
+  
+ To change/see your kernel:
+<!-- ![image of kernel](kernels.JPG?raw=true "Output") -->
+ <p align="center">
+  <img src="kernels.JPG" alt="mage of kernel" width="200"/>
+  </p>
