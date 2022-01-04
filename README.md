@@ -5,6 +5,7 @@ Read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyte
 
 ## Requirements
 * Install Jupyter notebook [click here](https://jupyter.org/install)
+* For Windows install GCC Compiler [MinGW or Cywing](https://www.mingw-w64.org)
 * (optional) Install LaTex for your OS [get it here](https://www.latex-project.org/get/)
 * (optional) or Use Google Colab [lets go!!](https://colab.research.google.com/?utm_source=scs-index)
 ## Files
