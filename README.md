@@ -5,8 +5,8 @@ Read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyte
 
 ## Requirements
 * Install Jupyter notebook [redirect to install](https://jupyter.org/install).
-* For Windows install GCC / G++ Compiler [MinGW or Cywing](https://www.mingw-w64.org).
-* For MacOS you can use prebuild Clang, If you want GCC/G++ you can install it using [homebrew](https://formulae.brew.sh/formula/gcc). 
+* For Windows install GNU GCC / G++ Compiler [MinGW or Cywing](https://www.mingw-w64.org).
+* For MacOS you can use prebuild Clang, If you want GNU GCC/G++ you can install it using [homebrew](https://formulae.brew.sh/formula/gcc). 
 * (optional) Install LaTex for your OS [get it here](https://www.latex-project.org/get/).
 * (optional) or Use Google Colab [lets go!!](https://colab.research.google.com/?utm_source=scs-index).
 ## Files
