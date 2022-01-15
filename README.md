@@ -1,5 +1,5 @@
 # JupyterNotebook
-Read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyter notebook, And also execute them on remote computer
+Insted of only Python,We can read, write and execute C, C++, Javascript, Shell scripts, HTML, LaTex in jupyter notebook, And also execute them on remote computer
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-sUZMT0fCNjyMXwVFf2fcQo7uFzgWGJG?usp=sharing)
 
