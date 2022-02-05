@@ -24,7 +24,7 @@ conda create -n <name of env> python=3.9 ipykernel
 source activate <name of env> # On Windows, remove the word 'source'
 python -m ipykernel install --user
 ```
-At```<name of env>```  put name of your environment eg. tf_env
+At ```<name of env>```  put name of your environment eg. tf_env
 
 >ipykernel installed and use ```ipython kernel install``` to drop the kernelspec in the right location for python2. 
 >Then ipython3 kernel install for Python3.
