@@ -23,6 +23,7 @@ Insted of only Python,We can read, write and execute C, C++, Javascript, Shell s
 |     [Remote](./Remote)    | Instructions to tunnel kernel on remote device and run your code on remote computer |
 |    [C++](example.ipynb)   |         Instruction to read write and execute C++ code on jupyter nootebook.        |
 |          [C](./C)         |          Instruction to read write and execute C code on jupyter nootebook.         |
+|      [Julia](./julia)     |        Instruction to read write and execute Julia code on jupyter nootebook.       |
 | [Web](./Web%20Technology) | Instruction to read write and execute HTML and JavaScript code on jupyter nootebook.|
 |      [Shell](./Shell)     |    Instruction to read write and execute Bash shell scripts on jupyter nootebook.   |
 |      [LaTex](./LaTex)     |        Instruction to read write and execute Latex code on jupyter nootebook.       |
