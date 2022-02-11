@@ -7,6 +7,7 @@ Insted of only Python,We can read, write and execute C, C++, Javascript, Shell s
 * Install Jupyter notebook [redirect to install](https://jupyter.org/install).
 * For Windows install GNU GCC / G++ Compiler [MinGW or Cywing](https://www.mingw-w64.org).
 * For MacOS you can use Clang, or for GNU GCC/G++ you can use [homebrew for installation](https://formulae.brew.sh/formula/gcc). 
+* (optional) Install Julia ([link](https://julialang.org/downloads/)).
 * (optional) Install LaTex for your OS ([link](https://www.latex-project.org/get/)).
 * (optional) or Use Google Colab ([link](https://colab.research.google.com/?utm_source=scs-index)).
 ## Files
